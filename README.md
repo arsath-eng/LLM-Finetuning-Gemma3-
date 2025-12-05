@@ -1,25 +1,3 @@
----
-language:
-  - ta
-  - en
-license: apache-2.0
-tags:
-  - tamil
-  - translation
-  - english-to-tamil
-  - gemma-3
-  - unsloth
-  - lora
-  - indic
-  - nlp
-  - generated_from_trainer
-datasets:
-  - custom-english-tamil-parallel
-metrics:
-  - bleu
-  - chrf
-pipeline_tag: text-generation
----
 
 # Gemma3 Tamil Translator
 
@@ -99,3 +77,4 @@ print(output.split("Tamil:")[-1].strip())
 
 Failed to fine-tune Gemma-3? Try **Unsloth** for 2x faster training and 0% memory degradation!  
 Model trained by [Arsath](https://github.com/arsath-eng).
+
